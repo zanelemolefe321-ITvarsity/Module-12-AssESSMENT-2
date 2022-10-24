@@ -2,23 +2,34 @@
     <head>
         <meta charset="UTF-8">
         <title></title>
+
+        <link rel="stylesheet" href="css/custom.css">
     </head>
+
     <body onload="getContact()">
         <div id="avatarImg"></div>
         <form id="editForm">
             <label for="firstname">First name</label>
             <input type="text" name="firstname" id="firstname" readonly><br/>
+            <br></br>
             <label for="lastname">Last name</label>
             <input type="text" name="lastname" id="lastname" readonly><br/>
+            <br></br>
             <label for="mobile">Mobile</label>
             <input type="text" name="mobile" id="mobile" readonly><br/>
+            <br></br>
             <label for="email">Email</label>
             <input type="text" name="email" id="email" readonly><br/>
+            <br></br>
             <label for="avatar" id="avatarLabel" hidden>Change profile image</label><br/>
+            <br></br>
             <input type="file" name="avatar" id="avatar" hidden><br/>
-            <br/>
+            <br></br>
             <button type="submit" id="submitForm" hidden>Submit</button>
+            <br></br>
         </form>
+        <br></br>
+        <br></br>
         <br/><br/>
         <button id="homeLink" type="button">Home</button>
         <button id="editContact" type="button">Edit</button>
